@@ -6,6 +6,10 @@
     <meta name="description" content="Pendaftaran Magang SIMAGANG - DPUPR Provinsi Banten">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Pendaftaran - SIMAGANG</title>
+
+     <!-- Favicon -->
+    <link rel="icon" type="image/png" href="{{ asset('image/ArtiLambang.png') }}">
+    <link rel="apple-touch-icon" href="{{ asset('image/ArtiLambang.png') }}">
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
